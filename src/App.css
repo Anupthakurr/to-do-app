@@ -1,0 +1,46 @@
+
+.apname{
+  font-weight : 700;
+  font-size: 50px;
+  margin-bottom: 20px;
+  color: cornflowerblue;
+  
+}
+
+input{
+  width : 100%;
+  border: 1px solid #ccc;
+}
+
+.item-container{
+  text-align: left;
+}
+.app-container{
+  background-color: antiquewhite;
+  min-height: 100vh;
+}
+.row1{
+  margin: 10px;
+}
+.button1{
+  min-width: 81px;
+  margin-left: 79px;
+  border-radius: 5px;
+  transition: 0.3s ease-in-out;
+}
+.button1:hover {
+  transform: scale(1.06);
+}
+p{
+  font-size: 22px;
+  margin: 40px 0;
+  animation: fadeIn 2s ease-in-out;
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
